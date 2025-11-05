@@ -1,5 +1,4 @@
 # 🐐 Goat Bot V2 update  by Azad 💥
-# Nezuko support gc - https://m.me/j/AbZvHioA_xvfjz_Q/
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EFF&center=true&vCenter=true&width=600&lines=🚀+Welcome+to+Goat+Bot+V2!;🤖+Messenger+Bot+by+Azad;💫+Powered+by+Nezuko+Chat+Bot;🎯+Modular+%26+Modern+Design" alt="Typing SVG" style="box-shadow: 0 0 25px rgba(255,255,255,0.4); border-radius: 14px;" />
@@ -25,6 +24,7 @@
   <img src="https://img.shields.io/badge/Messenger-Bot-blue?logo=messenger" alt="Messenger Bot">
 </p>
 
+# Nezuko support gc - https://m.me/j/AbZvHioA_xvfjz_Q/
 ---
 
 ## 🌟 Features
@@ -76,7 +76,7 @@ module.exports = {
   config: {
     name: "commandName",
     version: "1.0",
-    author: "Your Name",
+    author: "Azad",
     countDown: 5,
     role: 0,
     shortDescription: "Short command description",
