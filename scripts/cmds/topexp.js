@@ -2,7 +2,7 @@ module.exports = {
   config: {
     name: "topexp",
     version: "1.2",
-    author: "OTINXSANDIP",
+    author: "Azad 💥",
     role: 0,
     shortDescription: { en: "Top 15 Exp users (Rank Board)" },
     longDescription: { en: "" },
@@ -24,7 +24,6 @@ module.exports = {
 
       const topExp = usersWithExp.sort((a, b) => b.exp - a.exp).slice(0, 15);
 
-      // Add top title "RANK BOARD" with border
       const borderTop = "╔═════════════ RANK BOARD ═════════════╗";
       const borderBottom = "╚═══════════════════════════════════════╝";
 
@@ -32,7 +31,6 @@ module.exports = {
         const name = user.name || "Unknown";
         const exp = user.exp || 0;
 
-        // Emoji for top 3
         let rankEmoji = "🏅";
         if (index === 0) rankEmoji = "🥇";
         else if (index === 1) rankEmoji = "🥈";
